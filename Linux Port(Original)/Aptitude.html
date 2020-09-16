@@ -1,0 +1,165 @@
+<html>
+<head><title>test</title>
+<script language="javascript">
+function show_result()
+{
+var q1 = document.getElementsByName("rd_1")[3];
+var q2 = document.getElementsByName("rd_2")[2];
+var q3 = document.getElementsByName("rd_3")[2];
+var q4 = document.getElementsByName("rd_4")[0];
+var q5 = document.getElementsByName("rd_5")[0];
+var q6 = document.getElementsByName("rd_6")[2];
+var marks = 0;
+if(q1.checked)
+marks = marks + 1;
+if(q2.checked)
+marks = marks + 1;
+if(q3.checked)
+marks = marks + 1;
+if(q4.checked)
+marks = marks + 1;
+if(q5.checked)
+marks = marks + 1;
+if(q6.checked)
+marks = marks + 1;
+alert("You scored "+marks+" out of 6");
+}
+</script>
+</head>
+<body bgcolor="#ffdd33">
+<div align="center">
+<form name="test"> 
+<table border="1" name="test" width="900" cellpadding="10" >
+<tr><td colspan="2" align="center" height="30" style="font-weight:bold; font-size:35; font-face:Arial; color:#f00;">Aptitude</td></tr>
+<tr>
+<td width="10">1</td>
+<td width="870">Which city is also called as "Pink city"?</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_1" value="a"></td>
+<td>Raipur</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_1" value="b"></td>
+<td>Nagpur</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_1" value="c"></td>
+<td>Jabalpur</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_1" value="d"></td>
+<td>Jaipur</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+<td width="10">2</td>
+<td width="870">Which city is called as "City of Paradise"?</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_2" value="a"></td>
+<td>Shimla</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_2" value="b"></td>
+<td>Nainital</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_2" value="c"></td>
+<td>Srinagar</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_2" value="d"></td>
+<td>Kashmir</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+<td width="10">3</td>
+<td width="870">How many RBI headquaters are there in INDIA?</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_3" value="a"></td>
+<td>1</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_3" value="b"></td>
+<td>2</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_3" value="c"></td>
+<td>3</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_3" value="d"></td>
+<td>4</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+<td width="10">4</td>
+<td width="870">Who is "God of Cricket"?</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_4" value="a"></td>
+<td>Sachin Tendulkar</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_4" value="b"></td>
+<td>Sunil Gavaskar</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_4" value="c"></td>
+<td>Rahul Dravid</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_4" value="d"></td>
+<td>Kapil Dev</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+<td width="10">5</td>
+<td width="870">Which was the first animal to go into space?</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_5" value="a"></td>
+<td>Monkey</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_5" value="b"></td>
+<td>Parrot</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_5" value="c"></td>
+<td>Cat</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_5" value="d"></td>
+<td>Eagle</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+<td width="10">6</td>
+<td width="870">Birth place of Jesus Christ?</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_6" value="a"></td>
+<td>London</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_6" value="b"></td>
+<td>Rome</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_6" value="c"></td>
+<td>Jerusalem</td>
+</tr>
+<tr>
+<td><input type="radio" name="rd_6" value="d"></td>
+<td>Salem</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2" align="right"><input type="submit" value="submit" onclick="show_result()" style="padding:0 5;"></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>

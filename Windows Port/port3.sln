@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "port3", "port3\port3.vcproj", "{E2833E6D-3110-48C0-AC5C-72C73B2EB033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2833E6D-3110-48C0-AC5C-72C73B2EB033}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2833E6D-3110-48C0-AC5C-72C73B2EB033}.Debug|Win32.Build.0 = Debug|Win32
+		{E2833E6D-3110-48C0-AC5C-72C73B2EB033}.Release|Win32.ActiveCfg = Release|Win32
+		{E2833E6D-3110-48C0-AC5C-72C73B2EB033}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
